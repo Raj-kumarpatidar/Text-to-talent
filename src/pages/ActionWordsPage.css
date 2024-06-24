@@ -1,0 +1,35 @@
+/* ActionWordsPage.css */
+.action-words-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .words-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .word-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+    transition: transform 0.3s;
+  }
+  
+  .word-card:hover {
+    transform: translateY(-10px);
+    background-color: #f0f0f0;
+  }
+  
